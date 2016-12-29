@@ -1,0 +1,9 @@
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\bin\Debug\netcoreapp1.0\ReactiveServiceBus.deps.json
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\bin\Debug\netcoreapp1.0\ReactiveServiceBus.runtimeconfig.json
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\bin\Debug\netcoreapp1.0\ReactiveServiceBus.runtimeconfig.dev.json
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\bin\Debug\netcoreapp1.0\ReactiveServiceBus.dll
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\obj\Debug\netcoreapp1.0\ReactiveServiceBus.csprojResolveAssemblyReference.cache
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\obj\Debug\netcoreapp1.0\ReactiveServiceBus.AssemblyInfo.cs
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\bin\Debug\netcoreapp1.0\ReactiveServiceBus.pdb
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\obj\Debug\netcoreapp1.0\ReactiveServiceBus.dll
+C:\Users\wmccullough\Documents\GitHub\ReactiveServiceBus\src\ReactiveServiceBus\obj\Debug\netcoreapp1.0\ReactiveServiceBus.pdb
