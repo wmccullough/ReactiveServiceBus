@@ -1,16 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 
-namespace ReactiveServiceBus.Controllers
+// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+namespace ReactiveServiceBus.Controllers.V1
 {
-    [Route("v1/api/messages")]
-    public class MessagesController : Controller
+    [Route("v1/api/[controller]")]
+    public class QueuesController : Controller
     {
-        public MessagesController(QueueManager queueManager)
+        public QueuesController(QueueManager queueManager)
         {
             QueueManager = queueManager;
         }
@@ -18,7 +20,7 @@ namespace ReactiveServiceBus.Controllers
         protected QueueManager QueueManager { get; private set; }
 
         [HttpGet("{topic}")]
-        public async Task<string> GetMessage(string topic)
+        public async Task<string> Get(string topic)
         {
             try
             {
@@ -32,7 +34,7 @@ namespace ReactiveServiceBus.Controllers
         }
 
         [HttpPost("{topic}")]
-        public async Task PostMessage(string topic, [FromBody]JObject json)
+        public async Task Post(string topic, [FromBody]JObject json)
         {
             try
             {
